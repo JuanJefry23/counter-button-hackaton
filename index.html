@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <title>Counter button</title>
+  </head>
+  <body>
+    <div class="text hide" id="txt-increasing">It´s increasing 🥳</div>
+    <div class="text hide" id="txt-decreasing">It´s decreasing 🥺</div>
+
+    <div class="container">
+      <form class="form" id="submit">
+        <input type="text" class="result" value="0" id="result" readonly />
+        <div class="operators">
+          <input type="button" value="+" class="increase" id="increase" />
+          <input type="button" value="-" class="decrease" id="decrease" />
+        </div>
+      </form>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
